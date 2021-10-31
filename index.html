@@ -2,41 +2,174 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta name="description" content="My first project">
-    <meta name="keywords" content="cat,grumpy">
-    <meta name="kukil" content="My first project about cats">
+    <meta name="description" content="Ivan Kukil">
+    <meta name="keywords" content="Ivan,Kukil,resume">
+    <meta name="kukil" content="Resume">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> My First Project </title>
-    <link href="styles/style.css" rel="stylesheet">
-    <script src="scripts/main_head.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Resume</title>
   </head>
+
   <body>
-    <h1>Tom cat</h1>
-    <img src="images/cat.png" alt="Image of grumpy cat">
-    <p> My cat is <strong>very</strong> grumpy. </p>
-    <p>At Mozilla, we’re a global community of</p>
-    <p>Mozilla work in Windows.</p>
-    <a href="https://spaces.im/">Link to spaces</a>
-    <ul>
-      <li>technologists</li>
-      <li>thinkers</li>
-      <li>builders</li>
-      <li>builders2</li>
-      <li>builders3</li>
-    </ul>
-    <p> We are working together to keep the Internet alive. </p>
-    <p> Nice job.</p>
-    <div>
-      1
+    <!-- Main -->
+    <div class="main">
+        <!-- Main content -->
+        <div class ="main-content">
+          <!-- About user -->
+          <div class="about">
+          <h1 class="about-name">Ivan Kukil</h1>
+          <h2 class="about-position">Engineer</h2>
+          <p class="about-description">
+            I am constantly improving my knowledge and skills , using online resources 
+            like StackOverFlow, HackTheBox and etc. Also I am learning something new in 
+            the field of information security and information security management.
+          </p>
+          <p class="about-description">
+            I quickly find contact with people, sociable, I do not feel awkward in
+            communicating with people new to me, regardless of their authority or
+            position.
+          </p>
+          <p class="about-description">
+            I want to gain professional experience in the field of protection of 
+            state information resources. I am interested in web technologies and their vulnerabilities. 
+            I can quickly get to the necessary information. I am a hardworking person, persistent and learn quickly.
+          </p>
+          <p class="about-description">
+            I am currently serving in the Department of State Special Communications in Lviv region, but 
+            due to the specifics of my job responsibilities, I am not able to realize my full potential. 
+            I can deploy a local web server and run a script, now I'm taking an in-depth course in this direction.
+          </p>
+          </div>
+          <!-- Projects -->
+          <div class="projects">
+            <h3 class="h3-title">Projects</h3>
+            <ol class="projects-list">
+                <li class="projects-item">
+                  <span class="project">
+                    <a href="https://github.com/IvanKukil/html-test-task" class="project-link">https://github.com/IvanKukil/html-test-task</a> 
+                    .......... 
+                    <span class="project-bracket">[</span> HTML5, CSS3 <span class="project-bracket">]</span> 
+                  </span>
+                </li>
+                <li class="projects-item">
+                  <span class="project">
+                    <a href="https://github.com/IvanKukil/First_task" class="project-link">https://github.com/IvanKukil/First_task</a> 
+                    ..................... 
+                    <span class="project-bracket">[</span> JavaScript <span class="project-bracket">]</span> 
+                  </span>
+                </li>
+                <li class="projects-item">
+                  <span class="project">
+                    <a href="https://github.com/IvanKukil/GoIT" class="project-link">https://github.com/IvanKukil/GoIT</a> 
+                    ................................. 
+                    <span class="project-bracket">[</span> React.js, Node.js <span class="project-bracket">]</span> 
+                  </span>
+                </li>
+            </ol>
+          </div>
+          <!-- Work Experience -->
+          <div class="work-experience">
+            <h3 class="h3-title">Work Experience</h3>
+            <!-- Company 1  -->
+            <div>
+              <h4 class="work-position">Engineer of the 2nd category <span class="organization">SSSCIP</span></h4>
+              <p class="period-work">July 2021 - December 2021 <span class="line"> | </span> Lviv</p>
+            </div>
+          </div>
+          <!-- Education -->
+          <div class="education">
+            <h3 class="h3-title">Education</h3>
+            <h4 class="institute">Institute of Special Communications and Information Security of National Technical University of Ukraine "Igor Sikorsky Kyiv Polytechnic Institute"</h4>
+            <h4 class="specialization">Cybersecurity</h4>
+            <p class="period-study">September 2017 - July 2021</p>
+          </div>
+          <!-- Courses -->
+          <div class="courses">
+            <h3 class="h3-title">Courses</h3>
+            <h4 class="course">CCNA Routing and Switching: Introduction to Networks</h4>
+            <h4 class="course">CEH (EC-Council Certified Ethical Hacker) v10</h4>
+          </div>
+          <!-- Frameworks and utilities -->
+          <div class="utilities">
+            <h3 class="h3-title">Frameworks and utilities</h3>
+            <!-- Pentest tools  -->
+            <div>
+              <h4>Pentest tools</h4>
+              <p class="utilities-names">NMAP/ZenMap, Wireshark, Aircrack-ng, sqlmap, John the Ripper</p>
+            </div>
+            <!-- Vulnerability Scanners  -->
+            <div>
+              <h4>Vulnerability Scanners</h4>
+              <p class="utilities-names">Nessus, Tenable.io, Nikto, Rapid7</p>
+            </div>
+            <!-- OSINT tools -->
+            <div>
+              <h4>OSINT tools</h4>
+              <p class="utilities-names">Shodan, Google Dorks, Maltego</p>
+            </div>
+            <!-- Security tools & Network Monitoring  -->
+            <div>
+              <h4>Security tools & Network Monitoring</h4>
+              <p class="utilities-names">Firewall (iptables, firewalld), IDS (snort/surricata), Zabbix, Honeypot, Cuckoo Sandbox, SIEM (ELK, Splunk)</p>
+            </div>
+          </div>
+        </div>
+        <!-- Sidebar -->
+        <aside class="sidebar">
+          <img src="images/photo.jpg" alt="user photo" class="photo">
+          <!-- Contacts -->
+          <div class="contacts">
+            <h3 class="sidebar-title">Contacts</h3>
+            <div>
+              <p>
+                <span class="contact-type">C:</span> 
+                <a href="tel:+380633071421" class="contact-link">0633071421</a> 
+              </p>
+              <p>
+                <span class="contact-type">E:</span>
+                <a href="mailto:ivan.kukilAMC@gmail.com" class="contact-link">ivan.kukilAMC@gmail.com</a>
+              </p>
+            </div>
+          </div>
+          <!-- Tech Skills -->
+          <div class="tech-skills">
+            <h3 class="sidebar-title">Tech Skills</h3>
+            <ul class="tech-skills-list">
+              <li class="tech-skills-item"> <span class="tech-skills-text">HTML5</span> </li>
+              <li class="tech-skills-item"> <span class="tech-skills-text">CSS3</span> </li>
+              <li class="tech-skills-item"> <span class="tech-skills-text">GIT</span> </li>
+              <li class="tech-skills-item"> <span class="tech-skills-text">JavaScript</span> </li>
+              <li class="tech-skills-item"> <span class="tech-skills-text">C/C++</span> </li>
+              <li class="tech-skills-item"> <span class="tech-skills-text">Cybersecurity of state information resources</span> </li>
+              <li class="tech-skills-item"> <span class="tech-skills-text">OSI model</span> </li>
+            </ul>
+          </div>
+          <!-- Soft Skills -->
+          <div class="soft-skills">
+            <h3 class="sidebar-title">Soft Skills</h3>
+            <ul class="soft-skills-list">
+              <li class="soft-skills-item"> <span class="soft-skills-text">Teamwork</span> </li>
+              <li class="soft-skills-item"> <span class="soft-skills-text">Scrum</span> </li>
+              <li class="soft-skills-item"> <span class="soft-skills-text">Agile</span> </li>
+              <li class="soft-skills-item"> <span class="soft-skills-text">GTD</span> </li>
+            </ul>
+          </div>
+          <!-- Hobbies -->
+          <div class="hobbies">
+            <h3 class="sidebar-title">Hobbies</h3>
+            <ul class="hobbies-list">
+              <li class="hobbies-item"> <span class="hobbies-text">Rope-skipping</span> </li>
+              <li class="hobbies-item"> <span class="hobbies-text">Financial literacy</span> </li>
+              <li class="hobbies-item"> <span class="hobbies-text">Flashing an Android phones</span> </li>
+              <li class="hobbies-item"> <span class="hobbies-text">Volleybal</span> </li>
+            </ul>
+          </div>
+        </aside>
     </div>
 
-    <main> </main>
-    <section> </section>
-    <article> </article>
-    <aside> </aside>
-    <header> </header>
-    <footer> </footer>
-    
-    
+    <script src="scripts/main_head.js"></script>
   </body>
 </html>

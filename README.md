@@ -1,2 +1,2 @@
 # project1
-frontend
+My resume

@@ -1,1 +1,1 @@
-alert("Hello\nI am Ivan");
+/*alert("Hello\nI am Ivan");*/
