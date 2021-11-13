@@ -1,1 +1,10 @@
-/* @media (max-width: 2500px) */
+@media (max-width: 600px) {
+    .main {
+        flex-direction: column;
+        width: fit-content;
+    }
+    .photo {
+        width: 170px;
+    }
+}
+

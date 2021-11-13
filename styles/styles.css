@@ -8,7 +8,7 @@ body {
   display: flex;
   flex-direction: row-reverse;
   width: 1200px;
-  height: 1350px;
+  height: 1300px;
   margin: 0 auto;
 }
 
@@ -52,7 +52,6 @@ body {
   line-height: 24px;
   color: #595959;
   text-align: justify;
-  width: 600px;
 }
 
 .h3-title {
@@ -208,12 +207,15 @@ body {
 .sidebar {
   background-color: #1e2939;
   padding-top: 40px;
-  width: 400px;
+  
 }
 
 .photo {
+  display: block;
   width: 370px;
   margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .sidebar-title {
@@ -246,16 +248,6 @@ body {
   line-height: 24px;
   color: #FFFFFF; /* #565E6A */
   opacity: 0.5;
-}
-
-.fa {
-  padding: 10px;
-  font-size: 25px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 50%;
 }
 
 .tech-skills-list, .soft-skills-list, .languages-list {
