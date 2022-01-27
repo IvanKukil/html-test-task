@@ -6,13 +6,21 @@ body {
 /* main styles */
 .main {
   display: flex;
-  flex-direction: row-reverse;
-  width: 1200px;
-  height: 1300px;
+  flex-direction: row-reverse; 
+  flex: 1 2 1200px;
+  
+  justify-content: space-between;
+  align-items: stretch;
+  
+
+  /* width: 1200px;
+   */
   margin: 0 auto;
 }
 
 .main-content {
+  flex-grow: 3;
+  flex-shrink: 1;
   background-color: #fff;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
   padding: 30px 90px;
@@ -205,13 +213,17 @@ body {
 
 /* sidebar styles */
 .sidebar {
+  flex: 2 1 1200px;
   background-color: #1e2939;
   padding-top: 40px;
   
 }
 
 .photo {
-  display: block;
+  display: flex;
+  justify-content: center; /*центрируем элемент по горизонтали */
+  align-items: center; /* и вертикали */
+  overflow: hidden; /* если элемент больше блока-родителя – обрезаем лишнее */
   width: 370px;
   margin-bottom: 50px;
   margin-left: auto;
